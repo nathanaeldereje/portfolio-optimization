@@ -1,0 +1,25 @@
+# --- Task 1: Data Preprocessing, EDA, and Statistics ---
+pandas==2.2.0
+numpy==1.26.4
+yfinance==0.2.36
+matplotlib==3.8.2
+seaborn==0.13.2
+statsmodels==0.14.1
+scipy==1.12.0
+pyarrow==15.0.0
+
+# --- Notebook Environment ---
+# Essential for running .ipynb files in VS Code or Browser
+ipykernel==6.29.0
+notebook==7.0.7
+
+# --- Testing ---
+pytest==8.0.0
+
+# --- Task 2: Time Series Forecasting (Commented) ---
+# scikit-learn==1.4.0
+# pmdarima==2.0.4
+# tensorflow==2.15.0
+
+# --- Task 4: Portfolio Optimization (Commented) ---
+# PyPortfolioOpt==1.5.5
