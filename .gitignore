@@ -37,3 +37,4 @@ wheels/
 data/*
 # !data/processed/
 test*
+models/*
