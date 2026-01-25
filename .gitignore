@@ -35,4 +35,5 @@ wheels/
 
 # Data
 data/*
-!data/processed/
+# !data/processed/
+test*

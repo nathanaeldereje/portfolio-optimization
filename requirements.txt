@@ -1,7 +1,7 @@
 # --- Task 1: Data Preprocessing, EDA, and Statistics ---
 pandas==2.2.0
 numpy==1.26.4
-yfinance==0.2.36
+yfinance==1.1.0
 matplotlib==3.8.2
 seaborn==0.13.2
 statsmodels==0.14.1

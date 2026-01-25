@@ -101,8 +101,8 @@ portfolio-optimization/
 | Phase | Task Description | Status |
 | :--- | :--- | :--- |
 | **0. Setup** | Project Structure, Git, CI/CD, and Environment Setup | ✅ Completed |
-| **1. Explore** | Data Fetching (YFinance), Preprocessing, EDA, Stationarity Tests | 🚧 In Progress |
-| **2. Model** | ARIMA & LSTM implementation, Hyperparameter tuning, Evaluation | ⏳ Pending |
+| **1. Explore** | Data Fetching (YFinance), Preprocessing, EDA, Stationarity Tests | ✅ Completed |
+| **2. Model** | ARIMA & LSTM implementation, Hyperparameter tuning, Evaluation | 🚧 In Progress |
 | **3. Forecast** | Generating future market trends with confidence intervals | ⏳ Pending |
 | **4. Optimize** | Modern Portfolio Theory (MPT), Efficient Frontier, Sharpe Ratio | ⏳ Pending |
 | **5. Validate** | Backtesting strategy against standard market benchmarks | ⏳ Pending |
