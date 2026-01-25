@@ -17,9 +17,9 @@ notebook==7.0.7
 pytest==8.0.0
 
 # --- Task 2: Time Series Forecasting (Commented) ---
-# scikit-learn==1.4.0
-# pmdarima==2.0.4
-# tensorflow==2.15.0
+scikit-learn==1.4.0
+pmdarima==2.0.4
+tensorflow==2.17.0
 
 # --- Task 4: Portfolio Optimization (Commented) ---
 # PyPortfolioOpt==1.5.5
