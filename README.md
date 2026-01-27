@@ -1,7 +1,7 @@
 # 📈 Portfolio Management Optimization using Time Series Forecasting
 **Project:** Guide Me in Finance (GMF) Investments Strategy  
 **Role:** Financial Data Analyst / AI Engineer  
-**Status:** 🚧 In Progress  
+**Status:** ✅ Completed
 
 ## Project Overview
 This project empowers **Guide Me in Finance (GMF) Investments** to leverage data-driven insights for personalized portfolio management. By integrating advanced time series forecasting with Modern Portfolio Theory (MPT), we aim to optimize asset allocation for clients.
@@ -74,27 +74,31 @@ portfolio-optimization/
     ```
 
 ## 🔄 Recommended Workflow
-*As of Jan 21, 2026*
 
 1.  **Data Extraction & EDA (Task 1)**
-    Fetch YFinance data, clean missing values, and analyze volatility/seasonality.
-    *   Run: `notebooks/01_eda_preprocessing.ipynb`
-    *   *Key Output:* Stationarity test results (ADF) and Decomposition plots.
+    *   Fetch YFinance data for TSLA, BND, and SPY; clean data and analyze statistical properties.
+    *   **Run:** `notebooks/01_eda_preprocessing.ipynb`
+    *   *Key Output:* Stationarity test results (ADF), Volatility Clustering analysis, and Time Series Decomposition.
 
-2.  **Time Series Modeling (Task 2 & 3)**
-    Develop and compare statistical (ARIMA/SARIMA) vs. Deep Learning (LSTM) models for `TSLA`.
-    *   Run: `notebooks/02_modeling_forecasting.ipynb`
-    *   *Key Output:* 6-12 month price forecast with confidence intervals.
+2.  **Time Series Modeling (Task 2)**
+    *   Develop and compare statistical (ARIMA) vs. Deep Learning (LSTM) models for `TSLA`.
+    *   **Run:** `notebooks/02_ts_forecasting.ipynb`
+    *   *Key Output:* Model evaluation metrics (MAE/RMSE/MAPE) and selection of LSTM as the superior model.
 
-3.  **Portfolio Optimization (Task 4)**
-    Construct the Efficient Frontier using forecasted returns for TSLA and historical returns for BND/SPY.
-    *   Run: `notebooks/03_optimization.ipynb`
-    *   *Key Output:* Optimal weights (e.g., 15% TSLA, 45% BND, 40% SPY).
+3.  **Future Trend Analysis (Task 3)**
+    *   Use the trained LSTM model to project future prices with uncertainty bounds.
+    *   **Run:** `notebooks/03_future_forecasting.ipynb`
+    *   *Key Output:* 6-month recursive price forecast with "Fan Chart" confidence intervals.
 
-4.  **Strategy Backtesting (Task 5)**
-    Simulate the strategy against a static benchmark (60/40 Split) over the last 12 months.
-    *   Run: `notebooks/04_backtesting.ipynb`
-    *   *Key Output:* Cumulative Return vs. Benchmark plot.
+4.  **Portfolio Optimization (Task 4)**
+    *   Construct the Efficient Frontier using forecasted returns for TSLA and historical returns for BND/SPY.
+    *   **Run:** `notebooks/04_portfolio_optimization.ipynb`
+    *   *Key Output:* Asset Covariance Heatmap and Optimal weights (e.g., 100% SPY allocation for Max Sharpe).
+
+5.  **Strategy Backtesting (Task 5)**
+    *   Simulate the recommended strategy against a static benchmark (60/40 Split) over the last 12 months.
+    *   **Run:** `notebooks/05_backtesting.ipynb`
+    *   *Key Output:* Cumulative Return vs. Benchmark comparison plot and Risk/Return metrics (Sharpe Ratio, Max Drawdown).
 
 ## 🚀 Project Progress & Roadmap (as of January 25)
 
@@ -103,9 +107,9 @@ portfolio-optimization/
 | **0. Setup** | Project Structure, Git, CI/CD, and Environment Setup | ✅ Completed |
 | **1. Explore** | Data Fetching (YFinance), Preprocessing, EDA, Stationarity Tests | ✅ Completed |
 | **2. Model** | ARIMA & LSTM implementation, Hyperparameter tuning, Evaluation | ✅ Completed |
-| **3. Forecast** | Generating future market trends with confidence intervals | 🚧 In Progress |
-| **4. Optimize** | Modern Portfolio Theory (MPT), Efficient Frontier, Sharpe Ratio | ⏳ Pending |
-| **5. Validate** | Backtesting strategy against standard market benchmarks | ⏳ Pending |
+| **3. Forecast** | Generating future market trends with confidence intervals | ✅ Completed |
+| **4. Optimize** | Modern Portfolio Theory (MPT), Efficient Frontier, Sharpe Ratio | ✅ Completed |
+| **5. Validate** | Backtesting strategy against standard market benchmarks | ✅ Completed |
 
 ## 📸 Visuals
 *(Placeholders for future outputs)*
@@ -115,4 +119,4 @@ portfolio-optimization/
 *   **Backtest:** *[Insert Plot of Strategy vs Benchmark]*
 
 ---
-*Date: January 2026*
+*Date: January 27,2026*
