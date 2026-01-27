@@ -22,4 +22,4 @@ pmdarima==2.0.4
 tensorflow==2.17.0
 
 # --- Task 4: Portfolio Optimization (Commented) ---
-# PyPortfolioOpt==1.5.5
+PyPortfolioOpt==1.5.5
