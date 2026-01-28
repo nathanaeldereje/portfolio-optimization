@@ -100,7 +100,7 @@ portfolio-optimization/
     *   **Run:** `notebooks/05_backtesting.ipynb`
     *   *Key Output:* Cumulative Return vs. Benchmark comparison plot and Risk/Return metrics (Sharpe Ratio, Max Drawdown).
 
-## 🚀 Project Progress & Roadmap (as of January 25)
+## 🚀 Project Progress & Roadmap
 
 | Phase | Task Description | Status |
 | :--- | :--- | :--- |
@@ -110,13 +110,6 @@ portfolio-optimization/
 | **3. Forecast** | Generating future market trends with confidence intervals | ✅ Completed |
 | **4. Optimize** | Modern Portfolio Theory (MPT), Efficient Frontier, Sharpe Ratio | ✅ Completed |
 | **5. Validate** | Backtesting strategy against standard market benchmarks | ✅ Completed |
-
-## 📸 Visuals
-*(Placeholders for future outputs)*
-
-*   **Forecast:** *[Insert Plot of TSLA Forecast vs Actual]*
-*   **Efficient Frontier:** *[Insert Plot of Risk vs Return Curve]*
-*   **Backtest:** *[Insert Plot of Strategy vs Benchmark]*
 
 ---
 *Date: January 27,2026*
