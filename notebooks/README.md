@@ -1,7 +1,3 @@
-Here is the updated **notebooks/README.md**. I have adjusted the numbering to reflect that **Task 3 (Future Forecasting)** now has its own dedicated notebook, shifting the Portfolio Optimization and Backtesting notebooks to 04 and 05.
-
----
-
 # 📓 Analysis Notebooks
 
 This directory contains the Jupyter Notebooks used for the step-by-step analysis, modeling, and optimization of the GMF Investment strategy.
